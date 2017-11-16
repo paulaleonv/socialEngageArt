@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>  Sunday project  </title>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+
+    <link rel="stylesheet" href="./styles/style2.css">
+    <script type="text/javascript">
+      $(document).ready(function(){
+var deliSound1=document.getElementById('deliSound');
+var car1sound1=document.getElementById('mixCar1');
+var car2sound1=document.getElementById('mixCar2');
+var car3sound1=document.getElementById('mixCar3');
+var car4sound1=document.getElementById('mixCar4');
+var jennySound1=document.getElementById('jennySound');
+var laundrySound1=document.getElementById('laundrySound');
+var KaySound1=document.getElementById('ParkKaySound');
+var KayTatooes=document.getElementById('park_tatooes');
+var Jenny02Church=document.getElementById('Jenny_church');
+var SubwaySoundAmbient=document.getElementById('SubwayManWoman');
+var BusLeavingVoice=document.getElementById('BusLeaving');
+var BusBackVoice=document.getElementById('BusBack');
+
+
+      //  alert('on it');
+          $("#car1SoundPosition").mouseenter(function(){
+              // do something when hovered over
+             car1sound1.play();
+            //  console.log('hi');
+          });
+          $("#car1SoundPosition").mouseleave(function(){
+               car1sound1.pause();
+            //  console.log('bye');
+          });
+
+
+          $("#car2SoundPosition").mouseenter(function(){
+             car2sound1.play();
+
+          });
+          $("#car2SoundPosition").mouseleave(function(){
+               car2sound1.pause();
+
+          });
+
+          $("#car3SoundPosition").mouseenter(function(){
+             car3sound1.play();
+
+          });
+          $("#car3SoundPosition").mouseleave(function(){
+               car3sound1.pause();
+
+          });
+
+          $("#car4SoundPosition").mouseenter(function(){
+             car4sound1.play();
+
+          });
+          $("#car4SoundPosition").mouseleave(function(){
+               car4sound1.pause();
+
+          });
+
+          alert('on it');
+            $("#busSoundPosition").mouseenter(function(){
+                // do something when hovered over
+              BusLeavingVoice.play();
+
+            });
+            $("#busSoundPosition").mouseleave(function(){
+              BusLeavingVoice.pause();
+
+            });
+
+            $("#bus2SoundPosition").mouseenter(function(){
+                // do something when hovered over
+              //BusBackVoice.play();
+
+            });
+            $("#bus2SoundPosition").mouseleave(function(){
+              //BusBackVoice.pause();
+
+            });
+
+        /*  $("#mapBedstuy").mouseenter(function(){
+
+             car1sound1.play();
+              // do something when hovered over
+              console.log('hi');
+          });
+
+          $("#mapBedstuy").mouseleave(function(){
+              // do something when mouse leaving
+               car1sound1.pause();
+              console.log('bye');
+
+          });*/
+
+          $("#deliSoundPosition").mouseenter(function(){
+
+             deliSound1.play();
+              // do something when hovered over
+              //alert('hi');
+          });
+          $("#deliSoundPosition").mouseleave(function(){
+              // do something when mouse leaving
+               deliSound1.pause();
+              alert('bye');
+
+          });
+
+
+          $("#laundrySoundPosition").mouseenter(function(){
+             laundrySound1.play();
+              console.log('hi3');
+          });
+          $("#laundrySoundPosition").mouseleave(function(){
+               laundrySound1.pause();
+               console.log('bye3');
+          });
+
+          $("#laundrySoundPosition").mouseenter(function(){
+             laundrySound1.play();
+              console.log('hi3');
+          });
+          $("#laundrySoundPosition").mouseleave(function(){
+               laundrySound1.pause();
+               console.log('bye3');
+          });
+
+          $("#parkSoundPosition").mouseenter(function(){
+             KaySound1.play();
+              console.log('hi3');
+          });
+          $("#parkSoundPosition").mouseleave(function(){
+               KaySound1.pause();
+               console.log('bye3');
+          });
+
+          $("#jennySoundPosition").mouseenter(function(){
+             jennySound1.play();
+              console.log('hi3');
+          });
+          $("#jennySoundPosition").mouseleave(function(){
+              jennySound1.pause();
+               console.log('bye3');
+          });
+
+          $("#Kay_Bridney").mouseenter(function(){
+            KayTatooes.play();
+              console.log('hi3');
+          });
+          $("#Kay_Bridney").mouseleave(function(){
+              KayTatooes.pause();
+               console.log('bye3');
+          });
+
+
+          $("#JennyBedstuy").mouseenter(function(){
+                      Jenny02Church.play();
+                        console.log('hi3');
+          });
+          $("#JennyBedstuy").mouseleave(function(){
+                        Jenny02Church.pause();
+                         console.log('bye3');
+          });
+
+          $("#Subway_man_woman").mouseenter(function(){
+                    SubwaySoundAmbient.play();
+                        console.log('hi3');
+          });
+          $("#Subway_man_woman").mouseleave(function(){
+                        SubwaySoundAmbient.pause();
+                         console.log('bye3');
+          });
+
+
+    }); // Close doc ready
+
+    </script>
+
+  </head>
+  <body>
+    <h1>SUNDAY</h1>
+    <h2>project</h2>
+ <div class="text-wrapper">
+    Comm&nbsp;
+    <div class="animated-words">
+        <span>unity</span>
+        <span>une</span>
+        <span>unication</span>
+        <span>erce</span>
+        <span>utable</span>
+        <span>ute</span>
+        <!--<span>nism</span>-->
+    </div>
+
+  </div>
+
+  <img id="mapBedstuy" src= "./Assets/Images for WEB/Map_color_1024x754.png" width="2000">
+
+  <div id="car1SoundPosition">
+  </div>
+  <div id="car2SoundPosition">
+  </div>
+  <div id="car3SoundPosition">
+  </div>
+  <div id="car4SoundPosition">
+  </div>
+  <div id="busSoundPosition">
+  </div>
+  <div id="deliSoundPosition">
+  </div>
+  <div id="bus2SoundPosition">
+  </div>
+  <div id="laundrySoundPosition">
+  </div>
+  <div id="parkSoundPosition">
+  </div>
+  <div id="jennySoundPosition">
+  </div>
+
+
+
+
+
+<!-- <div> <a> <img id="mapBedstuy" src= "./Assets/Images for WEB/Map_color_1024x754.png" width="2000"> </a> -->
+
+  <audio id="deliSound" src="./Assets/SC_sounds_MP3_interviews/Deli01.mp3" type="audio/mpeg" preload loop>
+  </audio>
+
+<audio id="jennySound" src="./Assets/SC_sounds_MP3_interviews/Jenny01.mp3" type="audio/mpeg" preload loop>
+</audio>
+
+<audio id="laundrySound" src="./Assets/SC_sounds_MP3_interviews/Laundry01.mp3" type="audio/mpeg" preload loop>
+</audio>
+<audio id="ParkKaySound" src="./Assets/SC_sounds_MP3_interviews/park_kay_02.mp3" type="audio/mpeg" preload loop>
+</audio>
+
+<audio id="mixCar1" src="./Assets/SC_sounds_MP3_interviews/subway_car1.mp3" type="audio/mpeg" preload loop>
+</audio>
+<audio id="mixCar2" src="./Assets/SC_sounds_MP3_interviews/subway_car2.mp3" type="audio/mpeg" preload loop>
+</audio>
+<audio id="mixCar3" src="./Assets/SC_sounds_MP3_interviews/subway_car3.mp3" type="audio/mpeg" preload loop>
+</audio>
+<audio id="mixCar4" src="./Assets/SC_sounds_MP3_interviews/subway_car4.mp3" type="audio/mpeg" preload loop>
+</audio>
+<audio id="park_tatooes" src="./Assets/SC_sounds_MP3_interviews/Kay_Bridney_tatooes.mp3" type="audio/mpeg" preload loop>
+</audio>
+<audio id="Jenny_church" src="./Assets/SC_sounds_MP3_interviews/Jenny01_church.mp3" type="audio/mpeg" preload loop>
+</audio>
+<audio id="SubwayManWoman" src="./Assets/SC_sounds_MP3_interviews/SoundSUBWAY_manwoman.mp3" type="audio/mpeg" preload loop>
+</audio>
+<audio id="BusLeaving" src="./Assets/SC_sounds_MP3_interviews/Bus_leaving_sound.mp3" type="audio/mpeg" preload loop>
+</audio>
+<audio id="BusBack" src="./Assets/SC_sounds_MP3_interviews/Bus_back.mp3" type="audio/mpeg" preload loop>
+</audio>
+
+
+
+
+<p class="p1">
+  I walk through the streets<br>
+  of this new city<br>
+<br>
+  what I'm looking for<br>
+  what I find<br>
+  what finds me<br>
+
+ </p>
+
+
+<p class="p2">
+  While walking someone ask me:<br>
+  Which communities do you feel part of?<br>
+ </p>
+<br>
+<br>
+<p class="p3">
+  I could not stop thinking <br>
+  about that question. <br>
+  <br>
+  And the more simple arise  <br>
+
+<br>
+ </p>
+
+ <p class="p4">
+what is a community?<br>
+ </p>
+
+  <p class="p5">
+    Somehow the concept of community is not complete to me. <br>
+    Somehow, even I see them all over around, I feel them weak.<br>
+    Even the stronger ones.<br>
+    And it's not personal. People lives and find their communities. <br>
+    By decision, or by default.   <br>
+    It's social.
+    <br> The concept of community has a cleft.
+    <br> A rift.
+    <br> Communities means all they mean. But also their bounderies.
+   </p>
+
+     </div>
+
+
+
+
+     <div>
+
+<p class="antonymous">
+
+  antonymous of community
+<br>
+  <br>  &nbsp; &nbsp; &nbsp;incongruity
+
+  <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;loneliness
+
+    <br>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;solitude
+
+  <br>&nbsp; &nbsp; &nbsp;imbalance
+
+  <br>    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;difference
+
+<br>
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;individualist
+
+  <br>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;independence
+
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;discrepancy
+
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; disintegration
+
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;isolation
+
+
+  <br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; separation
+
+    <br>  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; incompatibility
+
+      <br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; disagreement
+
+        <br>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nonequivalence
+  <br>
+          <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; inequality
+
+</p>
+  <!--<pre>
+            antonymous of community
+
+      incongruity
+
+          loneliness
+
+              solitude
+
+      imbalance
+
+      individualist
+
+            independence
+
+      discrepancy
+
+      disintegration
+
+
+          inequality
+
+
+            isolation,
+
+              separation
+
+                incompatibility
+
+                  disagreement
+
+                    nonequivalence
+
+                      distinguishability
+
+                        difference
+
+
+
+
+ </pre> -->
+
+ <p class="questions">
+
+WHICH COMMUNITIES DO YOU FEEL PART OF?
+
+ </p>
+
+
+
+</div>
+
+    <script src="./javascript/sketch.js"></script>
+
+
+  <div class="cointainerForDraws">
+  <a class="peopleDraws">
+    <img id="Subway" src= "./Assets/Images for WEB/Subway_1024x754.png" width="891">
+    <img id= "Subway_man_woman" src= "./Assets/Images for WEB/Subway_03_manwoman.png" width="891">
+    <img id="JennyBedstuy" src= "./Assets/Images for WEB/Jenny_1024x773.png" width="891">
+    <img id= "Kay_Bridney" src= "./Assets/Images for WEB/Kay_bridney_1024x747.jpg" width="891">
+
+
+  </a>
+</div>
+
+
+
+  </body>
+</html>

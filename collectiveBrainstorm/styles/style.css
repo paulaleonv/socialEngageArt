@@ -1,0 +1,157 @@
+html, body {
+  background-color: black;
+  /*margin: 2%;*/
+  font-family: "avenir next condensed", sans-serif;
+  color: white;
+}
+
+.fondoNeurona {
+  position: absolute;
+  margin-left: 20%;
+  top: 0px;
+}
+.fondoNeuronaPage2 {
+  position: absolute;
+  margin-left: 0%;
+  width:100%
+  top: 0px;
+}
+
+h1 { font-size: 1.4em;
+  margin-bottom: 0;
+  margin-left: 2%;
+  right: 100px;
+  font-size: 2.4em;
+  font-weight:lighter;
+}
+h2 {
+margin-top: 0;
+margin-left: 2%;
+font-size: 2.3em;
+letter-spacing: 2px;
+font-weight:lighter;
+}
+h3 {
+position: absolute;
+margin-top: 16%;
+margin-left: 33%;
+font-size: 2.3em;
+letter-spacing: 2px;
+font-weight:lighter;
+}
+
+
+form {
+  position: absolute;
+  margin-left: 2%;
+  top: 350px;
+
+}
+
+#IssuesInput {
+  position: absolute;
+  margin-left: 2%;
+  top: 700px;
+  border-radius: 7px;
+  background-color: #ebe5e3;
+  width: 30%;
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 0.5em;
+  letter-spacing: 2px;
+  line-height: 1.6;
+}
+#LookforIssuesInput {
+  position: absolute;
+  margin-left: 2%;
+  top: 805px;
+  border-radius: 7px;
+  background-color: #ebe5e3;
+  width: 12%;
+  height: 30px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 0.5em;
+  letter-spacing: 2px;
+  line-height: 1.6;
+}
+
+button#sendIssue  {
+  position: absolute;
+  margin-left: 2%;
+  top: 772px;
+  background-color: #ebe5e3;
+  border-radius: 3px;
+  border-style: dashed;
+  border: 1px;
+
+}
+button#page1button{
+  position: absolute;
+  margin-left: 2%;
+  top: 855px;
+  background-color: #ebe5e3;
+  border-radius: 3px;
+  border-style: dashed;
+  border: 1px;
+}
+
+.page {
+ display: none;
+}
+
+#page-1 {
+display: block;
+}
+
+p1 {
+  position: absolute;
+  margin-top: 23%;
+  margin-left: 20%;
+  font-size: 1.6em;
+  color: grey;
+  letter-spacing: 2px;
+  font-weight:lighter;
+
+}
+p2 {
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 10%;
+  font-size: 1.3em;
+  color: grey;
+  letter-spacing: 2px;
+  font-weight:lighter;
+
+}
+p3 {
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 45%;
+  font-size: 1.8em;
+  color: grey;
+  letter-spacing: 2px;
+  font-weight:lighter;
+
+}
+p4 {
+  position: absolute;
+  margin-top: 35%;
+  margin-left: 10%;
+  font-size: 1.1em;
+  color: grey;
+  letter-spacing: 2px;
+  font-weight:lighter;
+
+}
+p5 {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 3%;
+  font-size: 1.5em;
+  color: grey;
+  letter-spacing: 2px;
+  font-weight:lighter;
+
+}
